@@ -1,0 +1,15 @@
+* {
+ box-sizing: border-box;
+}
+
+.App {
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: 15vh auto 10vh;
+  grid-template-columns: 100% 100% 100%;
+  grid-template-areas: 
+  "header"
+  "main"
+  "footer";
+  background: #e5e5e5;
+}

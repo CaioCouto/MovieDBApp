@@ -1,0 +1,45 @@
+.footer {
+    grid-area: footer;
+    background: #023047;
+    padding: 0 1em;
+}
+
+.footer__section {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer__section-logo {
+    color: #fff;
+    text-decoration: none;
+    text-transform: none;
+}
+
+.footer__section h1 {
+    margin: 0;
+}
+
+.footer__section-TMDBlink {
+    height: 60%;
+    text-align: right;
+}
+
+.footer__section-TMDBlogo {
+    max-height: 100%;
+}
+
+@media (min-width: 1200px) {
+	.footer__section {
+		width: 90%;
+		margin: 0 auto;
+        justify-content: space-between;
+	}
+}
+
+@media (min-width: 1800px) {
+	.footer__section {
+		width: 70%;
+	}
+}

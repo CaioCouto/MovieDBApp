@@ -1,0 +1,29 @@
+.main {
+    grid-area: main;
+    display: flow-root;
+    padding: 1em;
+}
+
+.main__section:not(.main__section:last-child) {
+    margin-bottom: 2em;
+}
+
+.main__section-title {
+    font-size: calc(1em + 2vmin);
+    margin: 0 0 10px 0;
+}
+
+@media (min-width: 1200px) {
+    .main {
+        width: 80%;
+        margin: 0 auto;
+        padding: 1em 0;
+    }
+}
+
+@media (min-width: 1800px) {
+    .main {
+        width: 60%;
+        margin: 0 auto;
+    }
+}

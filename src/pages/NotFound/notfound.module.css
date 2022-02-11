@@ -1,0 +1,34 @@
+.main {
+    grid-area: main;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+}
+
+.main__buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1em;
+}
+
+.main__buttons-btn {
+    border: 0;
+    font-size: 1em;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.main__buttons-btn:hover,
+.main__buttons-btn:focus {
+    background: none;
+    border-bottom: 2px solid #DD7230;
+}
+
+.main__buttons-icon {
+    margin-right: 10px;
+}
